@@ -41,7 +41,15 @@ class MangaController{
         }
     }
 
-
+    static async deleteManga(req, res){
+        try{
+            const mangaName = req.params['name']
+            await manga.findOneAndDelete({name:mangaName});
+            res.status(200).json({message: `${mangaName} has been deleted`})
+        } catch (erro) {
+            res.status(500).json({message: `${erro.message} - manga has not been deleted`})
+        }
+    }
 }
 
 export default MangaController
