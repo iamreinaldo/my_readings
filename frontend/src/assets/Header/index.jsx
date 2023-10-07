@@ -1,5 +1,5 @@
 export default function AppHeader(){
     return(
-        <h1>My Readings</h1>
+        <h1>My manga Readings</h1>
     )
 }
