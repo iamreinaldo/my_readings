@@ -1,3 +1,14 @@
-.form{
+.form-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-container .form{
+    background: #F7F7F7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    flex: 1;
+    padding: 36px 64px;
+    flex-direction: column;
 }

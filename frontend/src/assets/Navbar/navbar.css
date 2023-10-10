@@ -1,0 +1,23 @@
+.nav-options{
+    display: flex;
+}
+
+.options{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 35px;
+    min-height: 120px;
+    color: #000;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: rgb(83, 83, 83);
+    }
+}

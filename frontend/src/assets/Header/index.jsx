@@ -1,5 +1,10 @@
+import NavBar from "../Navbar";
+import './header.css';
+
 export default function AppHeader(){
     return(
-        <h1>My manga Readings</h1>
+        <header className="header-container">
+            <NavBar />
+        </header>
     )
 }
