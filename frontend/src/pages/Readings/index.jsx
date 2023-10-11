@@ -1,3 +1,5 @@
+import Card from "../../assets/Card";
+
 export default function Readings(){
-    return <h1> My Readings</h1>
+    return <Card />
 }
